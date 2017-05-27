@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import myCanvas from './canvas'
+import myCanvas from 'vue-atom-canvas'
 export default {
   name: 'hello',
   components: {

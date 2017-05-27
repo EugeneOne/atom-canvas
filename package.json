@@ -1,9 +1,11 @@
 {
-  "name": "atom-canvas",
+  "name": "vue-atom-canvas",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Vue component to canvas",
   "author": "wanyuqing <wyq_life@yeah.net>",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "main": "src/components/canvas.vue",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
@@ -11,6 +13,7 @@
   },
   "dependencies": {
     "vue": "^2.3.3",
+    "vue-atom-canvas": "^1.0.0",
     "vue-router": "^2.3.1"
   },
   "devDependencies": {

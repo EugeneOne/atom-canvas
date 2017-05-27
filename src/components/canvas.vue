@@ -10,9 +10,6 @@ export default {
         const rndCl = () => Math.floor(Math.random() * 225);
         const width = window.innerWidth;
         const height = window.innerHeight;
-        for (let i = 0; i < this.dotsNum; i++) {
-            this.colorList.push(`rgba(${rndCl()},${rndCl()},${rndCl()},1)`)
-        }
         var base_list = [];
         canvas.width = width;
         canvas.height = height;
@@ -183,7 +180,6 @@ export default {
     },
     data() {
         return {
-            colorList: [],
         }
     },
     props: {
